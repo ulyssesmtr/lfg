@@ -87,15 +87,24 @@ in the admin panel and refresh the interface page.
 There are only two endpoints
 
 POST /api/v1/loan/
-
 Creates the Loan instance in the database.
 
 GET /api/v1/loanfield/
-
 Returns all the loan fields 
 
+Detailed docs can be accessed at localhost:8000/swagger/
 
+## Tests
 
+Tests for the views and serializers were written and can be found at
+api/lfg_api/tests
+
+In order to run them, execute the following commands
+
+```
+docker exec -it lfg_api_1 bash
+python manage.py test
+```
 
 
 
