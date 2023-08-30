@@ -1,0 +1,57 @@
+[
+    {
+        "model": "lfg_api.loanfield",
+        "pk": 8,
+        "fields": {
+            "name": "Email",
+            "input_type": "email",
+            "required": true,
+            "order_number": 1,
+            "is_active": true
+        }
+    },
+    {
+        "model": "lfg_api.loanfield",
+        "pk": 9,
+        "fields": {
+            "name": "Lender",
+            "input_type": "text",
+            "required": true,
+            "order_number": 2,
+            "is_active": true
+        }
+    },
+    {
+        "model": "lfg_api.loanfield",
+        "pk": 10,
+        "fields": {
+            "name": "Borrower Name",
+            "input_type": "text",
+            "required": true,
+            "order_number": 3,
+            "is_active": true
+        }
+    },
+    {
+        "model": "lfg_api.loanfield",
+        "pk": 11,
+        "fields": {
+            "name": "Purpose",
+            "input_type": "text",
+            "required": true,
+            "order_number": 4,
+            "is_active": true
+        }
+    },
+    {
+        "model": "lfg_api.loanfield",
+        "pk": 12,
+        "fields": {
+            "name": "Loan Value",
+            "input_type": "number",
+            "required": true,
+            "order_number": 5,
+            "is_active": true
+        }
+    }
+]

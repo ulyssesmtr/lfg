@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <title>Loan Submission Form</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="testbox">
+      <form action="/" id="loan-form">
+        <div class="banner">
+          <img src="banner.jpg">
+          <h1>Loan Submission Form</h1>
+        </div>
+        <br/>
+        <br/>
+        <div class="colums" id="form-columns">
+          <div class="item">
+            <label for="name" class="required"> Contact name</label>
+            <input id="name" type="text" name="name" required/>
+          </div>
+        </div>
+		<div class="btn-block">
+			<button type="submit" >Submit</button>
+		  </div>
+      </form>
+    </div>
+  </body>
+</html>
+
+<script src="requests.js"></script>
