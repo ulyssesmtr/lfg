@@ -10,6 +10,13 @@ database migrations, load initial data, create an admin user
 and start the API server, meaning it is not necessary to do anything else
 to mess with the project.
 
+For Windows users, if the message
+"standard_init_linux.go:228: exec user process caused: no such file or directory" is shown on the lgf_api container logs,
+do the following:
+
+notepad++: go to edit -> EOL conversion -> change from CRLF to LF.
+
+VSCode: change CRLF to LF by clicking on CRLF present on lower right side in the status bar
 
 ## Admin panel
 
